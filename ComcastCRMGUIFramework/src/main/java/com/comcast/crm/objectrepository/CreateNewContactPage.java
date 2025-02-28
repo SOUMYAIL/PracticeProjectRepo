@@ -20,6 +20,9 @@ public class CreateNewContactPage {
 
 	@FindBy(name = "accountname")
 	private WebElement organisationNameTextField;
+	
+	@FindBy(name = "accountname")
+	private WebElement organisationNameTextFieldButton;
 
 	@FindBy(id = "phone")
 	private WebElement phoneNumberTextField;
