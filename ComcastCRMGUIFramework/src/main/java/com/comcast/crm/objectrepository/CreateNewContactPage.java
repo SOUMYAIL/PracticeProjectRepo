@@ -26,6 +26,9 @@ public class CreateNewContactPage {
 
 	@FindBy(id = "phone")
 	private WebElement phoneNumberTextField;
+	
+	@FindBy(id = "phone")
+	private WebElement phoneNumberTextField1;
 
 	@FindBy(xpath = "(//img[@src='themes/softed/images/select.gif'])[1]")
 	private WebElement imgButton;
